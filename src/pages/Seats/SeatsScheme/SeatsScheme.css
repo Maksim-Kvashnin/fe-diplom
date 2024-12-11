@@ -1,0 +1,175 @@
+.seats__scheme {
+  width: 100%;
+  padding: 70px 20px 25px;
+}
+
+.scheme__wagon-number {
+  width: fit-content;
+  margin-left: 44px;
+  padding: 2px 6px;
+  border: 1px solid var(--color-black);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.scheme__container {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.scheme__seats-wrapper {
+  flex: 1;
+}
+
+.scheme__seats-container {
+  display: flex;
+  flex-direction: column;
+  margin-block: 3px;
+  height: 123px;
+}
+
+.scheme__seats-fourth-class_right-side, 
+.scheme__seats-fourth-class_left-side {
+  border-top: 4px solid #999999;
+  border-bottom: 4px solid #999999;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.scheme__seats-fourth-class_right-side {
+  align-items: flex-start;
+  border-bottom: none;
+  padding-top: 4px;
+}
+
+.scheme__seats-fourth-class_left-side {
+  align-items: flex-end;
+  border-top: none;
+  padding-bottom: 4px;
+}
+
+.scheme__seats-row {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.scheme__seats-row_fourth-class {
+  gap: 3px;
+}
+
+.scheme__seats-item-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.scheme__seats-item {
+  align-items: center;
+  background: #F2F2F2;
+  border: 2px solid #F2F2F2;
+  cursor: pointer;
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.scheme__seats-item:disabled {
+  border-color: #CCCCCC;
+  background: #CCCCCC;
+  color: var(--color-white);
+  cursor: not-allowed;
+}
+
+.scheme__seats-item.selected:not(:disabled) {
+  border-color: var(--color-orange);
+}
+
+.scheme__seats-item_fourth-class {
+  height: 18px;
+  width: 26px;
+}
+
+.scheme__seats-first-class, 
+.scheme__seats-second-class, 
+.scheme__seats-third-class {
+  gap: 24px 0;
+}
+
+.scheme__seats-list {
+  display: flex;
+  position: relative;
+}
+
+.scheme__seats-right-side {
+  border-top: 4px solid #999999;
+  height: 100%;
+}
+
+.scheme__seats-left-side {
+  border-bottom: 4px solid #999999;
+  min-height: 28px;
+}
+
+.scheme__seats-placement {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.scheme__seats-placement:not(:last-child) {
+  border-right: 4px solid #999999;
+}
+
+.scheme__seats-row_first-class, 
+.scheme__seats-row_second-class {
+  border-bottom: 4px solid #999999;
+}
+
+.scheme__seats-item_first-class, 
+.scheme__seats-item_second-class, 
+.scheme__seats-item_third-class {
+  flex: 1 1;
+  width: 26px;
+}
+
+.scheme__seats-row_left-train-side {
+  flex: 1;
+  display: flex;
+}
+
+.scheme__seats-row_left-train-side:not(:last-child) {
+  border-right: 4px solid #999999;
+}
+
+.scheme__seats-item_left-train-side {
+  flex: 1;
+}
+
+.scheme__seats-row_empty {
+  position: relative;
+}
+
+.scheme__seats-row_empty:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  height: 1px;
+  background: #d5d5d5;
+}
+
+.scheme__seats-item_first-class {
+  align-items: flex-end;
+  padding-bottom: 8px;
+}

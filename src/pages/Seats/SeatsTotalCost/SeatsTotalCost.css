@@ -1,0 +1,29 @@
+.seats__total-cost {
+  width: fit-content;
+  margin-left: auto;
+  padding-right: 40px;
+  font-size: 24px;
+  color: var(--color-grey);
+}
+
+.seats__total-cost-count {
+  color: var(--color-orange);
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.seats__total-cost-text-info {
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-black);
+  background-color: #fcf8a0;
+}
+
+.seats__total-cost-text-error {
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-black);
+  background-color: #ff3d0061;
+}

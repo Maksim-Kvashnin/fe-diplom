@@ -1,0 +1,38 @@
+.switch__btn {
+  margin-left: auto;
+  width: 70px;
+  height: 19px;
+}
+
+.ant-switch {
+  background: var(--color-white);
+}
+
+.ant-switch:hover:not(.ant-switch-disabled) {
+  background: var(--color-white);
+}
+
+.ant-switch .ant-switch-handle {
+  width: 28px;
+  height: 28px;
+  top: calc(50% - 14px);
+  inset-inline: 0;
+}
+
+.ant-switch .ant-switch-handle::before {
+  background-color: #C4C4C4;
+  border-radius: 100%;
+}
+
+.ant-switch.ant-switch-checked, 
+.ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled) {
+  background: var(--color-yellow);
+}
+
+.ant-switch.ant-switch-checked .ant-switch-handle {
+  inset-inline-start: calc(100% - 28px);
+}
+
+.ant-switch.ant-switch-checked .ant-switch-handle::before {
+  background-color: var(--color-orange);
+}

@@ -1,0 +1,88 @@
+.seats__about-train {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #F7F6F6;
+}
+
+.seats__about-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.seats__about-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 30px;
+  border-radius: 50%;
+  outline: 2px solid var(--color-orange);
+  outline-offset: 7px;
+  color: var(--color-orange);
+}
+
+.seats__about-train-block {
+  padding-right: 20px;
+  text-transform: capitalize;
+}
+
+.about-train__number {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.about-train__city {
+  font-size: 16px;
+}
+
+.about-train__city:not(:last-child)::after {
+  content: '\27F6';
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.about-train__city:nth-last-child(3) {
+  color: var(--color-grey);
+}
+
+.seats__about-train-direction {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  text-transform: capitalize;
+  padding: 20px 40px;
+  border-left: 1px solid var(--color-white);
+  border-right: 1px solid var(--color-white);
+}
+
+.seats__about-train-direction time {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.seats__about-train-direction time ~ p:first-of-type {
+  font-size: 18px;
+}
+
+.seats__about-train-direction time ~ p:last-of-type {
+  font-size: 16px;
+  color: var(--color-grey);
+}
+
+.seats__about-clock {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 0 70px 0 35px;
+}
+
+.clock-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  outline: none;
+  color: var(--color-orange);
+}

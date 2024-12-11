@@ -1,0 +1,58 @@
+.ticket-amount__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 40px auto 25px 20px;
+}
+
+.ticket-amount__form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: 30px;
+}
+
+.ticket-amount__block {
+  flex: 1;
+  padding: 20px 40px 25px;
+  border: 1px solid transparent;
+}
+
+.ticket-amount__block:hover:not(.ticket-amount__block:has(input:focus-visible)) {
+  border-color: var(--color-orange);
+}
+
+.ticket-amount__block:has(input:focus-visible) {
+  background: #F7F6F6;
+  box-shadow: 0px 2px 2px #00000040;
+}
+
+.ticket-amount__input_label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-inline: 15px;
+  border: 1px solid var(--color-grey);
+  border-radius: 5px;
+  background: var(--color-white);
+  cursor: text;
+}
+
+.ticket-amount__input_text {
+  flex-shrink: 0;
+  font-size: 16px;
+  color: var(--color-black);
+}
+
+.ticket-amount__input {
+  flex: auto;
+  width: 100%;
+  padding-left: 5px;
+  font-size: 18px;
+  cursor: text;
+}
+
+.ticket-amount__block_description {
+  margin-top: 20px;
+  font-size: 16px;
+}

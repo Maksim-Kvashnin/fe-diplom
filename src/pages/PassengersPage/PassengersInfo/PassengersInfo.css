@@ -1,0 +1,43 @@
+.passengers-info__wrapper {
+  width: 100%;
+  background-color: transparent;
+}
+
+.passengers-info__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 45px;
+}
+
+.passengers-info__btn {
+  margin: 100px 0 0 auto;
+  padding: 15px 65px;
+  border: 2px solid var(--color-orange);
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-white);
+  background-color: var(--color-orange);
+  text-transform: uppercase;
+  transition: color, border-color, background-color 0.5s ease-in-out;
+}
+
+.passengers-info__btn:disabled {
+  border-color: var(--color-grey);
+  background-color: var(--color-grey);
+  cursor: not-allowed;
+}
+
+.passengers-info__btn:hover:not(:disabled), 
+.passengers-info__btn:focus, 
+.passengers-info__btn:focus-visible {
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.passengers-info__btn:active:not(:disabled) {
+  background-color: transparent;
+  color: var(--color-orange);
+  box-shadow: 0px 4px 4px #00000040;
+}
