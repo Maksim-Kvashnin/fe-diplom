@@ -30,13 +30,13 @@ function App() {
       <OrderContext.Provider value={{orderState, setOrderState}}>
       <PayContext.Provider value={{payState, setPayState}}>
         <Routes>
-          <Route path="/" Component={StartPage} />
-          <Route path="/order" Component={OrderPage} />
-          <Route path="/order/seats" Component={SeatsPage} />
-          <Route path="/order/passengers" Component={PassengersPage} />
-          <Route path="/order/payment" Component={PaymentPage} />
-          <Route path="/order/confirm" Component={ConfirmPage} />
-          <Route path="/finish" Component={FinishPage} />
+          <Route path="/fe-diplom" Component={StartPage} />
+          <Route path="/fe-diplom/order" Component={OrderPage} />
+          <Route path="/fe-diplom/order/seats" Component={SeatsPage} />
+          <Route path="/fe-diplom/order/passengers" Component={PassengersPage} />
+          <Route path="/fe-diplom/order/payment" Component={PaymentPage} />
+          <Route path="/fe-diplom/order/confirm" Component={ConfirmPage} />
+          <Route path="/fe-diplom/finish" Component={FinishPage} />
         </Routes>
       </PayContext.Provider>
       </OrderContext.Provider>

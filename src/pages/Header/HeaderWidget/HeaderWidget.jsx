@@ -34,7 +34,7 @@ function HeaderWidget() {
     } else if ((cityFrom && !cityFrom.title) || (cityTo && !cityTo.title)) {
       setModal("flex");
     } else {
-      navigate("/order");
+      navigate("/fe-diplom/order");
     }
   };
 

@@ -53,7 +53,7 @@ function OrderTrain({ item }) {
       arrival: {route_direction_id: arrivalId && arrivalId.id ? arrivalId.id : null},
     });
 
-    navigate("/order/seats");
+    navigate("/fe-diplom/order/seats");
   };
 
   const openSeats = (e) => {

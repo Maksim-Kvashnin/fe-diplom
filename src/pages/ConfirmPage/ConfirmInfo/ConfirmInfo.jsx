@@ -57,7 +57,7 @@ function ConfirmInfo() {
           setModal("none");
           setAppState({});
           setRouteState({});
-          navigate("/finish");
+          navigate("/fe-diplom/finish");
         }, 1500);
       })
       .catch((e) => {

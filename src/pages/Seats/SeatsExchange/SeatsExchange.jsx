@@ -10,7 +10,7 @@ function SeatsExchange({data}) {
 
   const handleClick = (e) => {
     e.preventDefault();
-    navigate("/order");
+    navigate("/fe-diplom/order");
   };
 
   return (

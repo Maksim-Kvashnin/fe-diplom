@@ -73,7 +73,7 @@ function PaymentInfo() {
           payment_method: paymentMethod,
         }
       });
-      navigate("/order/confirm");
+      navigate("/fe-diplom/order/confirm");
     }
   };
 
