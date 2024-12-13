@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Maksim-Kvashnin/fe-diplom/static/css/main.14933912.css",
+    "main.js": "/Maksim-Kvashnin/fe-diplom/static/js/main.299e8863.js",
+    "static/media/header-final-image.png": "/Maksim-Kvashnin/fe-diplom/static/media/header-final-image.5e943d1a362ab4058c7f.png",
+    "static/media/header-base-image.png": "/Maksim-Kvashnin/fe-diplom/static/media/header-base-image.29a90eb33f09d86037fc.png",
+    "static/media/header-order-image.png": "/Maksim-Kvashnin/fe-diplom/static/media/header-order-image.041b929d29e5d348ba0a.png",
+    "static/media/main-work-image.png": "/Maksim-Kvashnin/fe-diplom/static/media/main-work-image.eb6cdd6e8fa66166852d.png",
+    "static/media/SVGicon.svg": "/Maksim-Kvashnin/fe-diplom/static/media/SVGicon.14980b2248eb322df0926cbb020155ec.svg",
+    "static/media/feedback-avatar-image-2.png": "/Maksim-Kvashnin/fe-diplom/static/media/feedback-avatar-image-2.e596fe93ad446b7d8aa6.png",
+    "static/media/feedback-avatar-image-1.png": "/Maksim-Kvashnin/fe-diplom/static/media/feedback-avatar-image-1.8ddc8ef5d63925b361a5.png",
+    "static/media/roboto-v30-latin-regular.woff2": "/Maksim-Kvashnin/fe-diplom/static/media/roboto-v30-latin-regular.b009a76ad6afe4ebd301.woff2",
+    "static/media/wagon-header.png": "/Maksim-Kvashnin/fe-diplom/static/media/wagon-header.7ac30c4cc742528d085c.png",
+    "static/media/wagon-footer.png": "/Maksim-Kvashnin/fe-diplom/static/media/wagon-footer.51f1ca557ff4d389afd8.png",
+    "index.html": "/Maksim-Kvashnin/fe-diplom/index.html",
+    "main.14933912.css.map": "/Maksim-Kvashnin/fe-diplom/static/css/main.14933912.css.map",
+    "main.299e8863.js.map": "/Maksim-Kvashnin/fe-diplom/static/js/main.299e8863.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14933912.css",
+    "static/js/main.299e8863.js"
+  ]
+}
