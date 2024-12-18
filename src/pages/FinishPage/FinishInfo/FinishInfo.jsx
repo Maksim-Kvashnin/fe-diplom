@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, {useContext} from "react";
 import { useNavigate } from "react-router-dom";
 import PayContext from "#context/payContext";
 import OrderContext from "#context/orderContext";
@@ -6,22 +6,6 @@ import SVGicon from "#components/SVGicon/SVGicon";
 import "./FinishInfo.css";
 
 function FinishInfo() {
-  const generateStars = (active) => {
-    let countStars = 5;
-    let stars = [];
-    for (let i = 0; i < countStars; i++) {
-      stars.push((
-        <div key={i}
-          className={i <= active ? "service-rating__star active" : "service-rating__star"}
-          onClick={() => handleClickStar(i)}>
-        </div>)
-      );
-    }
-    return stars;
-  }
-  const [star, setStar] = useState(generateStars())
-  const handleClickStar = (e) => setStar(() => generateStars(e));
-
   const {orderState} = useContext(OrderContext);
   const {payState} = useContext(PayContext);
   const navigate = useNavigate();
@@ -73,7 +57,13 @@ function FinishInfo() {
 
           <div className="finish-info__service-rating">
             <p className="service-rating__title">Оценить сервис</p>
-            <div className="service-rating__stars">{ star }</div>
+            <div className="service-rating__stars">
+              <div className="service-rating__star"></div>
+              <div className="service-rating__star"></div>
+              <div className="service-rating__star"></div>
+              <div className="service-rating__star"></div>
+              <div className="service-rating__star"></div>
+            </div>
             <button className="service-rating__btn" type="button" onClick={handleClick}>Вернуться на главную</button>
           </div>
         </div>
