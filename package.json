@@ -3,7 +3,7 @@
   "imports": {
     "#*": "./src/*"
   },
-  "homepage": "https://github.com/Maksim-Kvashnin/fe-diplom",
+  "homepage": "https://Maksim-Kvashnin.github.io/fe-diplom",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
